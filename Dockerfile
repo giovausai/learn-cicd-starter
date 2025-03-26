@@ -10,7 +10,7 @@ WORKDIR /app
 
 ADD notely /app/notely
 
-ADD .env /app/.env
+#ADD .env /app/.env
 
 EXPOSE 8080
 
